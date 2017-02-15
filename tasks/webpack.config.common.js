@@ -7,7 +7,7 @@ module.exports = {
             test: /(\.js|jsx)$/,
             enforce: 'pre',
             include: /(src)/,
-            use: ['eslint-loader'],
+            use: 'eslint-loader',
         }, {
             test: /\.(js|jsx)$/,
             include: /(src)/,
